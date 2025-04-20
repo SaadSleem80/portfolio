@@ -123,3 +123,21 @@
     @apply bg-background text-foreground;
     }
 }
+
+#home { 
+
+}
+
+@media (max-width: 768px) {
+    #home { 
+        min-height: calc(100vh - 80px);
+    }
+}
+
+@media (min-width: 768px) {
+    #home { 
+        height: calc(100vh - 80px);
+    }
+}
+
+
